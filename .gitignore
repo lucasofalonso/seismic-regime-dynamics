@@ -1,0 +1,71 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Conda / Virtual Environments
+# ===============================
+.env
+.venv
+venv/
+env/
+ENV/
+
+# Conda-specific
+conda-meta/
+*.conda
+*.lock
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ===============================
+# Logs & temporary files
+# ===============================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ===============================
+# Data (raw & large files)
+# ===============================
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ===============================
+# Reports / figures (optional)
+# ===============================
+reports/*
+!reports/.gitkeep
+
+# ===============================
+# Cache / profiling
+# ===============================
+.cache/
+.mypy_cache/
+.pytest_cache/
+.prof
+*.pstats
+
+# ===============================
+# Model artifacts (if any)
+# ===============================
+*.joblib
+*.pkl
+*.pickle
