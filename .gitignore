@@ -1,71 +1,30 @@
-# ===============================
-# Python
-# ===============================
-__pycache__/
-*.py[cod]
-*$py.class
+# Data files
+data/raw/*
+data/*.db
+!data/.gitkeep
+!data/raw/.gitkeep
 
-# ===============================
-# Jupyter
-# ===============================
+# Figures 
+figures/*
+!figures/.gitkeep
+
+# Reports — versionado (contém mapa interativo)
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
 .ipynb_checkpoints/
 
-# ===============================
-# Conda / Virtual Environments
-# ===============================
-.env
-.venv
-venv/
-env/
-ENV/
+# Conda / Env
+.conda/
+*.egg-info/
 
-# Conda-specific
-conda-meta/
-*.conda
-*.lock
-
-# ===============================
-# OS / Editor
-# ===============================
+# OS
 .DS_Store
 Thumbs.db
-.idea/
+
+# IDE
 .vscode/
-
-# ===============================
-# Logs & temporary files
-# ===============================
-*.log
-*.tmp
-*.bak
-*.swp
-
-# ===============================
-# Data (raw & large files)
-# ===============================
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-
-# ===============================
-# Reports / figures (optional)
-# ===============================
-reports/*
-!reports/.gitkeep
-
-# ===============================
-# Cache / profiling
-# ===============================
-.cache/
-.mypy_cache/
-.pytest_cache/
-.prof
-*.pstats
-
-# ===============================
-# Model artifacts (if any)
-# ===============================
-*.joblib
-*.pkl
-*.pickle
+.idea/
